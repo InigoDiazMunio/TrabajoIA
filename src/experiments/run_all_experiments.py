@@ -4,7 +4,11 @@ Script principal para ejecutar todos los experimentos sin paralelización.
 
 import torch
 import sys
-sys.path.insert(0, '.')  # Ajustar según donde ejecutes
+from pathlib import Path
+
+# Agregar el directorio raíz al path
+root_dir = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(root_dir))
 
 from src.datasets import get_mnist, get_cifar10, get_cifar100, get_imdb, get_wikitext103, SmallCNN_MNIST
 from src.models import MLP, SmallCNN, MediumCNN, LargeCNN, SmallTransformer, MediumTransformer

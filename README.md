@@ -1,6 +1,9 @@
 # TrabajoIA
 Este repositorio es para llevar acabo el proyecto sobre Entrenamiento distribuido de modelos de inteligencia artificial en entornos multi-GPU de la asignatura Trabajo integrado de computación e IA  de la Universidad de Deusto. Cualquier uso de este codigo ha de ser consultado con el creador.
 
+# NOTA IMPORTANTE
+El trabajo, se ha desarrollado en Colab en tres notebooks distintos ( están disponibles en la carpeta notebooks), que es de donde
+se han sacado los resultados. El codigo que aparece fuera de los notebooks, puede que no funcione, ya que no simula multiples GPUs. 
 ## 📋 Descripción
 
 Este proyecto implementa y compara diferentes estrategias de paralelización para el entrenamiento de modelos de deep learning:

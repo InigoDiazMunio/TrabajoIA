@@ -4,7 +4,7 @@ Este repositorio es para llevar acabo el proyecto sobre Entrenamiento distribuid
 # NOTA IMPORTANTE
 El trabajo, se ha desarrollado en Colab en tres notebooks distintos ( están disponibles en la carpeta notebooks), que es de donde
 se han sacado los resultados. El codigo que aparece fuera de los notebooks, puede que no funcione, ya que no simula multiples GPUs. 
-## 📋 Descripción
+##  Descripción
 
 Este proyecto implementa y compara diferentes estrategias de paralelización para el entrenamiento de modelos de deep learning:
 
@@ -12,7 +12,7 @@ Este proyecto implementa y compara diferentes estrategias de paralelización par
 - **DataParallel**: Paralelización a nivel de datos 
 - **DistributedDataParallel (DDP)**: Entrenamiento distribuido multi-GPU 
 
-## 🚀 Instalación
+## Instalación
 ```bash
 # Clonar repositorio
 git clone <repo-url>
@@ -22,7 +22,7 @@ cd TRABAJOIA
 pip install -r requirements.txt
 ```
 
-## 💻 Uso
+##  Uso
 
 ### Ejecutar todos los experimentos:
 ```bash
@@ -53,7 +53,7 @@ resultados = train_model(
 )
 ```
 
-## 📊 Experimentos Incluidos
+##  Experimentos Incluidos
 
 1. **MNIST + MLP**: Clasificación básica
 2. **MNIST + CNN Small**: CNN pequeña
@@ -62,6 +62,6 @@ resultados = train_model(
 5. **IMDB + Transformer Small**: Clasificación de sentimientos
 6. **WikiText-103 + Transformer Medium**: Language modeling
 
-## 👨‍💻 Autor
+##  Autor
 
 Iñigo Diaz Munio
